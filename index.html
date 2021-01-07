@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+
+        <section class="container">
+            <!-- Data Attributes: ideal para uso no Js - Prefixo sempre "data" -->
+            <form data-form-task>
+                <input class="input-adc" type="text" placeholder="Insira sua tarefa aqui..." data-input-task>
+                <button class="btn-adc" data-btn-task>Adicionar 
+                </button>
+
+            </form>
+        <span data-error></span>
+
+            <ul data-list-task>
+
+            </ul>
+        </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
